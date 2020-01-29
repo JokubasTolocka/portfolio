@@ -328,7 +328,7 @@ li{
 #third-hex:after{
   border-top: 30px solid #30A499;
 }
-@media (max-width: 768px){
+@media (max-width: 768px) and (min-width: 641px){
   .landing-right{
     padding-left: 0;
     margin: 0 0;
@@ -388,10 +388,13 @@ li{
 
 @media (max-width: 640px){
   .App{
-    width: 640px;
+    width: 375px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+  }
+  .right-div{
+    width: 350px;
   }
   .landing-left{
     height: 300px;
@@ -407,12 +410,12 @@ li{
   .landing-right{
     padding-left: 0;
     margin: 0 auto;
-    width: 500px;
+    width: 350px;
     transform: translateX(0px);
   }
   .project-top{
-    width: 476px;
-    opacity: 100%;
+    width: 326px;
+    opacity: initial;
     display: block;
     background: #03030381;
   }
@@ -429,16 +432,16 @@ li{
   }
   .project{
     margin: 10px auto;
-    width: 500px;
+    width: 350px;
   }
   .project:nth-child(2n-1){
     margin: 10px auto
   }
   .project-image{
-    width: 500px;
+    width: 350px;
   }
   .projects{
-    width: 500px;
+    width: 350px;
   }
   #loaded{
     animation: Loaded 0.8s forwards;
