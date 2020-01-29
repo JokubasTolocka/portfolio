@@ -186,7 +186,7 @@ li{
   margin-right: 20px;
 }
 .project-top:hover{
-  opacity: 100%;
+  opacity: initial;
   background-color: #2c98f0;
 }
 .project-tech{
@@ -418,9 +418,6 @@ li{
   }
   .project-tech-singular{
     background: rgba(255, 255, 255, 0.815)
-  }
-  .project-top:hover{
-    background: #03030381;
   }
   .expertise-cards{
     display: flex;
