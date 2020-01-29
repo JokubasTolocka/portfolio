@@ -69,7 +69,7 @@ body {
     transform: translateX(280px);
   }
   to{
-    opacity: 100%;
+    opacity: initial;
     transform: translateX(300px);
   }
 }
@@ -84,7 +84,7 @@ body {
     transform: translateY(20px);
   }
   to{
-    opacity: 100%;
+    opacity: initial;
     transform: translateY(0px);
   }
 }
@@ -101,7 +101,7 @@ body {
     transform: translateY(-20px);
   }
   to{
-    opacity: 100%;
+    opacity: initial;
     transform: translateY(0px);
   }
 }
@@ -348,7 +348,7 @@ li{
       transform: translateX(210px);
     }
     to{
-      opacity: 100%;
+      opacity: initial;
       transform: translateX(230px);
     }
   }
@@ -452,7 +452,7 @@ li{
       transform: translateX(-20px);
     }
     to{
-      opacity: 100%;
+      opacity: initial;
       transform: translateX(0px);
     }
   }
