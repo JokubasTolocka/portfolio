@@ -11,7 +11,7 @@ class Right extends Component {
     this.handleLoad = this.handleLoad.bind(this);
   }
   componentDidMount() {
-    window.addEventListener("load", this.handleLoad);
+    this.handleLoad();
   }
   handleLoad() {
     this.setState({ pageLoaded: true });
